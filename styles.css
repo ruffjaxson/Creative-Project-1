@@ -1,10 +1,10 @@
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #3282fa !important;
 
-  height: 70px;
+  display: flex;
+  width: auto;
+  background: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  height: 60px;
   color: #ffffff;
   text-decoration: underline;
 }
@@ -13,16 +13,22 @@
   color: #ffffff;
 }
 
+.nav {
+  justify-content: center;
+}
+
 .footer-content {
   display: flex;
   width: 500px;
   justify-content: space-between;
+  align-items: center;
+
 }
 
 .page {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  height: 475px;
 }
 
 .image-container {
@@ -36,4 +42,11 @@
   margin: 2px;
   border: 1px;
   border-color: #030303;
+}
+
+body {
+  background-image: url("/images/lake.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
