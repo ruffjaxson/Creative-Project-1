@@ -1,5 +1,4 @@
 .footer {
-
   display: flex;
   width: auto;
   background: rgba(0, 0, 0, 0.4);
@@ -13,10 +12,6 @@
   color: #ffffff;
 }
 
-.nav {
-  justify-content: center;
-}
-
 .footer-content {
   display: flex;
   width: 500px;
@@ -28,7 +23,12 @@
 .page {
   display: flex;
   justify-content: center;
-  height: 475px;
+  margin: auto;
+
+  color: white;
+  width: 1200px;
+
+
 }
 
 .image-container {
@@ -36,6 +36,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 1000px;
+  background-color: green;
+
 }
 
 .image {
@@ -49,4 +52,38 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 
+}
+
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 4em;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  height: 470px;
+
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 325px;
+
+  margin 3px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
 }
